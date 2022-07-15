@@ -1,0 +1,26 @@
+Package: Project4520
+Type: Package
+Title: BTRY4520 project
+Version: 0.1.0
+Author@R: c(
+    person("Shirley","Zhang",email = "xz499@cornell.edu",role="ctb")
+    person("Andrew", "Liu", email = "yl3226@cornell.edu, role="ctb"))
+Description: Analayze the existing travel network usinng real flight data and redesigned the network
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+    geosphere,
+    sp,
+    mapview,
+    tidyverse,
+    sf,
+    RColorBrewer,
+    devtools
+Suggests:
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+RoxygenNote: 7.1.2
+Config/testthat/edition: 3
+VignetteBuilder: knitr
